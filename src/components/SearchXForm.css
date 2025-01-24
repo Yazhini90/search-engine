@@ -1,0 +1,88 @@
+.mainpage {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .mainpage__container {
+    width: 700px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .search__form {
+    position: relative;
+  }
+  
+  .search__input {
+    width: 100%;
+    height: 60px;
+    border-radius: 35px;
+    border: 1px solid lightgrey;
+    outline: none;
+    font-size: 20px;
+    padding: 0 5px 0 60px;
+  }
+  
+  .search__icon {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    font-size: 30px;
+    color: lightgrey;
+  }
+  
+  .mic__icon {
+    position: absolute;
+    top: 18px;
+    right: 2px;
+    font-size: 30px;
+    color: rgb(58, 132, 223);
+  }
+
+  .keyboard__icon {
+    position: absolute;
+    top: 18px;
+    right: 40px;
+    font-size: 30px;
+    color: rgb(58, 132, 223);
+  }
+  
+  .search__group {
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+  }
+  .search__group__feelinglucky {
+    margin-top: -35px;
+    margin-bottom: 250px;
+    padding-left: 300px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .search__btn {
+    outline: none;
+    color: #5f6368;
+    background: #f1f2f1;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .search__feelinglucky__btn {
+    outline: none;
+    color: #5f6368;
+    background: #f1f2f1;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }
